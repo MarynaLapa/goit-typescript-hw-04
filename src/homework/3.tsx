@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-interface Value {
-  value: string
-}
 export function FormComponent() {
   const [value, setValue] = useState("");
 
