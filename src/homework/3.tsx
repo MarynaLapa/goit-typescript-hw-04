@@ -4,7 +4,7 @@ interface Value {
   value: string
 }
 export function FormComponent() {
-  const [value, setValue] = useState<Value>("");
+  const [value, setValue] = useState("");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>):void => {
     setValue(event.target.value);
